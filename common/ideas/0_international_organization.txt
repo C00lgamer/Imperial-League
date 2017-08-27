@@ -1,0 +1,40 @@
+ideas = {
+	country = {
+		
+		idea_eu_member = {
+			allowed = { always = no }
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.25
+				political_power_gain = -0.5
+			}
+		}
+		
+		idea_eu_sanctions = {
+			allowed = { always = no }
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = -0.35
+			}
+		}
+		
+		idea_united_nations_security_council_member = {
+			allowed = { always = no }
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.15
+			}
+			
+			rule = {
+				can_create_factions = yes
+			}
+		}
+		
+	}
+}

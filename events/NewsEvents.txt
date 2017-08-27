@@ -1,0 +1,18 @@
+﻿add_namespace = news
+add_namespace = news_coup
+
+#Generic Coup News
+news_event = {
+	id = news_coup.1
+	title = news_coup.1.t
+	desc = news_coup.1.d
+	picture = GFX_news_event_coup
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_coup.1.o1
+	}
+}

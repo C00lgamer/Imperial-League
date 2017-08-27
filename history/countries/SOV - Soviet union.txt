@@ -1,0 +1,421 @@
+﻿capital = 219
+
+oob = "SOV_2000"
+
+set_research_slots = 4
+set_convoys = 500
+set_national_unity = 0.75
+
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	rail_integration_system = 1
+	support_weapons = 1
+	tandem_charge_warheads = 1
+	squad_automatic_weapon = 1
+	night_vision = 1
+	body_armor = 1
+	body_armor2 = 1
+	camouflage = 1
+	special_forces = 1
+	motorised_infantry = 1
+	
+	
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	
+	gen1_mbt = 1
+	gen2_mbt = 1
+	gen3_mbt = 1
+	gen3_light = 1
+	gen1_ifv = 1
+	gen1_apc = 1
+	
+	gw_artillery = 1
+	interwar_artillery = 1
+	antitank1 = 1
+	interwar_antiair = 1
+	
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	basic_heavy_cruiser = 1
+	early_battlecruiser = 1
+	basic_battlecruiser = 1
+	early_battleship = 1
+	basic_battleship = 1
+	transport = 1
+	early_carrier = 1
+	basic_carrier = 1
+	early_submarine = 1
+	basic_submarine = 1
+	
+	gen2_attack = 1
+	gen3_attack = 1
+	gen2_multirole = 1
+	gen3_multirole = 1
+	gen4_multirole = 1
+	gen2_mpa = 1
+	gen3_mpa = 1
+	gen4_mpa = 1
+	gen3_bomber = 1
+	modern_gen3_bomber = 1
+	gen1_ucav = 1
+	
+	electronic_mechanical_engineering = 1
+	radio = 1
+	mechanical_computing = 1
+	radio_detection = 1
+	
+	assembly_line = 1
+	software1 = 1
+	software2 = 1
+	software3 = 1
+	machine_tools1 = 1
+	machine_tools2 = 1
+	machine_tools3 = 1
+	robotics1 = 1
+	oil1 = 1
+	oil2 = 1
+	construction1 = 1
+	manufacturing1 = 1
+	excavation1 = 1	
+	
+	atomic_research = 1
+	nuclear_reactor = 1
+	nukes = 1
+}
+
+add_ideas = {
+	population_growth_decline
+	idea_united_nations_security_council_member
+	nuclear_power_idea
+}
+
+set_politics = {
+
+	parties = {
+		nationalist = {
+			popularity = 7
+		}
+		reactionary = {
+			popularity = 46
+		}
+		conservative = {
+			popularity = 9
+		}
+		social_liberal = {
+			popularity = 6
+		}
+		social_democrat = {
+			popularity = 1
+		}
+		progressive = {
+			popularity = 0
+		}
+		democratic_socialist = {
+			popularity = 1
+		}
+		communist = {
+			popularity = 30
+		}
+	}
+	
+	ruling_party = reactionary
+	last_election = "1999.12.19"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_faction = CSTO
+add_to_faction = SOV
+add_to_faction = BLR
+add_to_faction = ARM
+add_to_faction = TJI
+add_to_faction = KZH
+add_to_faction = KYR
+
+give_guarantee = ABK
+give_guarantee = SOS
+give_guarantee = TRA
+
+2000.1.1 = {
+
+create_country_leader = {
+	name = "Vladimir Putin"
+	desc = "POLITICIAN_SOV_VLADIMIR_PUTIN_DESC"
+	picture = "Portrait_SOV_Vladimir_Putin.dds"
+	expire = "2050.1.1"
+	ideology = counter_progressive_democrat
+	
+	traits = {
+		popular_figurehead
+	}
+}
+
+create_country_leader = {
+	name = "Gennady Zyuganov"
+	desc = "POLITICIAN_SOV_GENNADY_ZYUGANOV_DESC"
+	picture = "Portrait_SOV_Gennady_Zyuganov.dds"
+	expire = "2050.1.1"
+	ideology = stalinist
+}
+
+create_country_leader = {
+	name = "Sergey Kiriyenko"
+	desc = "POLITICIAN_SOV_SERGEY_KIRIYENKO_DESC"
+	picture = "Portrait_SOV_Sergey_Kiriyenko.dds"
+	expire = "2050.1.1"
+	ideology = fiscal_conservative
+}
+
+create_country_leader = {
+	name = "Grigory Yavlinski"
+	desc = "POLITICIAN_SOV_GRIGORY_YAVLINSKI_DESC"
+	picture = "Portrait_SOV_Grigory_Yavlinski.dds"
+	expire = "2050.1.1"
+	ideology = liberalist
+}
+
+create_country_leader = {
+	name = "Alexei Navalny"
+	desc = "POLITICIAN_SOV_ALEXEI_NAVALNY_DESC"
+	picture = "Portrait_SOV_Alexei_Navalny.dds"
+	expire = "2050.1.1"
+	ideology = progressive_ideology
+}
+
+create_country_leader = {
+	name = "Mikhail Kasyanov"
+	desc = "POLITICIAN_SOV_MIKHAIL_KASYANOV_DESC"
+	picture = "Portrait_SOV_Mikhail_Kasyanov.dds"
+	expire = "2050.1.1"
+	ideology = libertarian
+}
+
+create_country_leader = {
+	name = "Gennady Semigin"
+	desc = "POLITICIAN_SOV_GENNADY_SEMIGIN_DESC"
+	picture = "Portrait_SOV_Gennady_Semigin.dds"
+	expire = "2050.1.1"
+	ideology = democratic_socialist_ideology
+}
+
+create_country_leader = {
+	name = "Sergei Mironov"
+	desc = "POLITICIAN_SOV_SERGEI_MIRONOV_DESC"
+	picture = "Portrait_SOV_Sergei_Mironov.dds"
+	expire = "2050.1.1"
+	ideology = social_democrat_ideology
+}
+
+
+create_country_leader = {
+	name = "Vladimir Zhirinovsky"
+	desc = "POLITICIAN_SOV_VLADIMIR_ZHIRINOVSKY_DESC"
+	picture = "Portrait_SOV_Vladimir_Zhirinovsky.dds"
+	expire = "2050.1.1"
+	ideology = proto_fascist
+}
+
+
+create_country_leader = {
+	name = "Andrey Savelyev"
+	desc = "POLITICIAN_SOV_ANDREY_SAVELYEV_DESC"
+	picture = "Portrait_SOV_Andrey_Savelyev.dds"
+	expire = "2050.1.1"
+	ideology = national_socialist
+	
+	traits = {
+		popular_figurehead
+	}
+}
+
+create_field_marshal = {
+	name = "Igor Sergeyev"
+	picture = "Portrait_SOV_general_Igor_Sergeyev.dds"
+	skill = 1
+	traits = { old_guard }
+}
+
+create_corps_commander = {
+	name = "Anatoly Antonov"
+	picture = "Portrait_SOV_general_Anatoly_Antonov.dds"
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Igor Sergun"
+	picture = "Portrait_SOV_general_Igor_Sergun.dds"
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Pavel Grachev"
+	picture = "Portrait_SOV_general_Pavel_Grachev.dds"
+	skill = 1
+	traits = {
+		old_guard
+	}
+}
+
+create_corps_commander = {
+	name = "Sergey Shoygu"
+	picture = "Portrait_SOV_general_Sergey_Shoygu.dds"
+	skill = 4
+	traits = {
+		trickster
+		urban_assault_specialist
+	}
+}
+
+create_corps_commander = {
+	name = "Valery Gerasimov"
+	picture = "Portrait_SOV_general_Valery_Gerasimov.dds"
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Oleg Salyukov"
+	picture = "Portrait_SOV_general_Oleg_Salyukov.dds"
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Andrey Kartapolov"
+	picture = "Portrait_SOV_general_Andrey_Kartapolov.dds"
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Vladimir Zarudnitsky"
+	picture = "Portrait_SOV_general_Vladimir_Zarudnitsky.dds"
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Sergei Surovikin"
+	picture = "Portrait_SOV_general_Sergei_Surovikin.dds"
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Vladimir Bakin"
+	picture = "Portrait_SOV_general_Vladimir_Bakin.dds"
+	skill = 1
+}
+
+create_navy_leader = {
+	name = "Vladimir Korolev"
+	picture = "Portrait_SOV_admiral_Vladimir_Korolev.dds"
+	skill = 1
+	}
+
+create_navy_leader = {
+	name = "Viktor Chirkov"
+	picture = "Portrait_SOV_admiral_Viktor_Cherkov.dds"
+	skill = 1
+	}
+
+create_navy_leader = {
+	name = "Vladimir Vysotskiy"
+	picture = "Portrait_SOV_admiral_Vladimir_Vysotskiy.dds"
+	skill = 1
+	}
+
+}
+
+2000.8.12 = { set_country_flag = sov_kursk_sinking }
+
+2008.1.1 = {
+	
+	set_party_name = {
+		ideology = conservative
+		long_name = SOV_conservative_party_PD_long
+		name = SOV_conservative_party_PD
+	}
+
+}
+
+2012.1.1 = {
+	set_politics = {
+
+		parties = {
+			nationalist = {
+				popularity = 11
+			}
+			reactionary = {
+				popularity = 49
+			}
+			conservative = {
+				popularity = 1
+			}
+			social_liberal = {
+				popularity = 3
+			}
+			social_democrat = {
+				popularity = 13
+			}
+			progressive = {
+				popularity = 3
+			}
+			democratic_socialist = {
+				popularity = 1
+			}
+			communist = {
+				popularity = 19
+			}
+		}
+	
+		ruling_party = reactionary
+		last_election = "2011.12.4"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+
+	create_country_leader = {
+		name = "Emilia Slabunova"
+		desc = "POLITICIAN_SOV_EMILIA_SLABUNOVA_DESC"
+		picture = "Portrait_SOV_Emilia_Slabunova.dds"
+		expire = "2050.1.1"
+		ideology = liberalist
+	}
+
+	create_country_leader = {
+		name = "Boris Titov"
+		desc = "POLITICIAN_SOV_BORIS_TITOV_DESC"
+		picture = "Portrait_SOV_Boris_Titov.dds"
+		expire = "2050.1.1"
+		ideology = fiscal_conservative
+	}
+
+
+}
+
+2014.3.1 = {
+	add_opinion_modifier = {
+		target = UKR
+		modifier = annexed_ukraine_trade
+	}
+	add_ideas = {
+		idea_eu_sanctions
+	}
+}
+
+2014.3.18 = {
+	add_named_threat = {
+		threat = 6
+		name = threat_SOV_annexiation_of_crimea
+	}
+}

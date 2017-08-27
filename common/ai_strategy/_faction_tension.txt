@@ -1,0 +1,15 @@
+ai_strategy_tension_1 = {
+	
+	enable = {
+		threat < 0.1
+	}
+	
+	abort = {
+		threat > 0.1
+	}
+	
+	modifier = {
+		ai_get_ally_desire_factor = -190
+	}
+	
+}

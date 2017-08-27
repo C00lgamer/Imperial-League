@@ -1,0 +1,7 @@
+focus_tree = {
+	id = generic_tiny_focus
+	
+	country = {
+		factor = 0
+	}
+}

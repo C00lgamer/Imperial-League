@@ -1,0 +1,227 @@
+﻿capital = 126
+
+oob = "ENG_2000"
+
+set_research_slots = 4
+set_convoys = 1000
+set_national_unity = 0.75
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	rail_integration_system = 1
+	support_weapons = 1
+	tandem_charge_warheads = 1
+	squad_automatic_weapon = 1
+	night_vision = 1
+	body_armor = 1
+	body_armor2 = 1
+	camouflage = 1
+	special_forces = 1
+	motorised_infantry = 1
+	
+	
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	
+	gen1_mbt = 1
+	gen2_mbt = 1
+	gen3_mbt = 1
+	gen3_light = 1
+	gen1_ifv = 1
+	gen1_apc = 1
+	
+	gw_artillery = 1
+	interwar_artillery = 1
+	antitank1 = 1
+	interwar_antiair = 1
+	
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	basic_heavy_cruiser = 1
+	early_battlecruiser = 1
+	basic_battlecruiser = 1
+	early_battleship = 1
+	basic_battleship = 1
+	transport = 1
+	early_carrier = 1
+	basic_carrier = 1
+	early_submarine = 1
+	basic_submarine = 1
+	
+	gen2_attack = 1
+	gen3_attack = 1
+	gen2_multirole = 1
+	gen3_multirole = 1
+	gen4_multirole = 1
+	gen2_mpa = 1
+	gen3_mpa = 1
+	gen4_mpa = 1
+	gen3_bomber = 1
+	modern_gen3_bomber = 1
+	gen1_ucav = 1
+	
+	electronic_mechanical_engineering = 1
+	radio = 1
+	mechanical_computing = 1
+	radio_detection = 1
+	
+	assembly_line = 1
+	software1 = 1
+	software2 = 1
+	software3 = 1
+	machine_tools1 = 1
+	machine_tools2 = 1
+	machine_tools3 = 1
+	robotics1 = 1
+	oil1 = 1
+	oil2 = 1
+	construction1 = 1
+	manufacturing1 = 1
+	excavation1 = 1
+}
+
+add_ideas = {
+	idea_ENG_queen_elizabeth_2
+	idea_eu_member
+	idea_united_nations_security_council_member
+	population_growth_stagnation
+	nuclear_power_idea
+}
+
+give_guarantee = BRU
+give_guarantee = CYP
+
+set_politics = {
+
+	parties = {
+		nationalist = {
+			popularity = 3
+		}
+		reactionary = {
+			popularity = 7
+		}
+		conservative = {
+			popularity = 30
+		}
+		market_liberal = {
+			popularity = 16
+		}
+		social_liberal = {
+			popularity = 0
+		}
+		social_democrat = {
+			popularity = 43
+		}
+		democratic_socialist = {
+			popularity = 1
+		}
+	}
+	
+	ruling_party = social_democrat
+	last_election = "1997.5.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Tony Blair"
+	desc = "POLITICIAN_ENG_TONY_BLAIR_DESC"
+	picture = "Portrait_ENG_Tony_Blair.dds"
+	expire = "2020.1.1"
+	ideology = social_democrat_ideology
+	
+	traits = {
+	
+	}
+}
+
+create_country_leader = {
+	name = "David Cameron"
+	desc = "POLITICIAN_ENG_DAVID_CAMERON_DESC"
+	picture = "Portrait_ENG_David_Cameron.dds"
+	expire = "2050.1.1"
+	ideology = fiscal_conservative
+}
+
+2004.1.1 = {
+	set_party_name = {
+		ideology = reactionary
+		long_name = ENG_reactionary_party_UKIP_long
+		name = ENG_reactionary_party_UKIP
+	}
+	
+	create_country_leader = {
+		name = "Nigel Farage"
+		desc = "POLITICIAN_ENG_NIGEL_FARAGE_DESC"
+		picture = "Portrait_ENG_Nigel_Farage.dds"
+		expire = "2050.1.1"
+		ideology = counter_progressive_democrat
+	}
+}
+
+2015.6.1 = {
+	set_politics = {
+		ruling_party = conservative
+		elections_allowed = yes
+		last_election = "2015.5.7"
+		
+		parties = {
+			islamist = {
+				popularity = 2
+			}
+			conservative = {
+				popularity = 40
+			}
+			social_democrat = {
+				popularity = 27
+			}
+			market_liberal = {
+				popularity = 7
+			}
+			reactionary = {
+				popularity = 12
+			}
+			nationalist = {
+				popularity = 3
+			}
+			fascist = {
+				popularity = 1
+			}
+			progressive = {
+				popularity = 5
+			}
+			democratic_socialist = {
+				popularity = 3
+			}
+		}
+	}
+	
+	create_country_leader = {
+		name = "Jeremy Corbyn"
+		desc = "POLITICIAN_ENG_JEREMY_CORBYN_DESC"
+		picture = "Portrait_ENG_Jeremy_Corbyn.dds"
+		expire = "2050.1.1"
+		ideology = social_democrat_ideology
+	}
+	
+	create_country_leader = {
+		name = "Tim Farron"
+		desc = "POLITICIAN_ENG_TIM_FARRON_DESC"
+		picture = "Portrait_ENG_Tim_Farron.dds"
+		expire = "2050.1.1"
+		ideology = libertarian
+	}
+}
+

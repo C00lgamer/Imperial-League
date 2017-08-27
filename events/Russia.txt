@@ -1,0 +1,80 @@
+﻿add_namespace = russia
+add_namespace = news_SOV
+
+#Kursk Submarine Disaster
+country_event = {
+	id = russia.1
+	title = russia.1.t
+	desc = russia.1.d
+	picture = GFX_report_event_SOV_kursk_sinking
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SOV
+		date > 2000.8.10
+		date < 2001.1.1
+		not = { has_country_flag = sov_kursk_sinking }
+	}
+	
+	immediate = {
+		set_country_flag = sov_kursk_sinking
+	}
+	
+	option = {	#Horrible!
+		name = russia.1.o1
+		navy_experience = 2
+		add_national_unity = -0.02
+		add_political_power = -10
+		add_popularity = {
+			ideology = reactionary
+			popularity = -0.03
+		}
+		news_event = {
+			hours = 6
+			id = news_SOV.1
+		}
+	}
+}
+
+############################ NEWS ##############################
+#Kursk News Event
+news_event = {
+	id = news_SOV.1
+	title = news_SOV.1.t
+	desc = news_SOV.1.d
+	picture = GFX_news_event_SOV_kursk_sinking
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_SOV.1.o1
+		trigger = { tag = SOV }
+	}
+	
+	option = {
+		name = news_SOV.1.o2
+		trigger = { 
+			is_in_faction_with = SOV 
+			NOT = { tag = SOV }
+		}
+	}
+	
+	option = {
+		name = news_SOV.1.o3
+		trigger = { 
+			NOT = { is_in_faction_with = SOV }
+			NOT = { tag = SOV }
+			NOT = { has_war_with = SOV }
+		}
+	}
+	
+	option = {
+		name = news_SOV.1.o4
+		trigger = { 
+			has_war_with = SOV
+		}
+	}
+}

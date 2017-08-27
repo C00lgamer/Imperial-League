@@ -1,0 +1,125 @@
+﻿division_template = {
+	name = "Infantry Regiment"
+	
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+	}
+	support = {
+		field_hospital = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Air Assault Regiment"
+	
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+	}
+	support = {
+		field_hospital = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Dragoons Regiment"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Armored Regiment"
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+	}
+	support = {
+		field_hospital = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Artilleriregementet"
+	
+	regiments = {
+		artillery_brigade = { x = 0 y = 0 }
+	}
+	support = {
+		field_hospital = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Military Police Regiment"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+	support = {
+		military_police = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	
+	division = {
+		name = "Livgardet"
+		location = 6050	#Stockholm
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "(Livgardet) Militärpolis"
+		location = 6050	#Stockholm
+		division_template = "Military Police Regiment"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "Norrbottens regemente"
+		location = 9108	#Lulea (Boden)
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "Livregementets husarer"
+		location = 69	#Karlsborg
+		division_template = "Air Assault Regiment"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "Arméns jägarbataljon"
+		location = 11187
+		division_template = "Dragoons Regiment"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "Artilleriregementet"
+		location = 9108
+		division_template = "Artilleriregementet"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "Skaraborg Regiment"
+		location = 3375 #Skövde
+		division_template = "Armored Regiment"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "South Scania Regiment"
+		location = 9279 #Malmö
+		division_template = "Armored Regiment"
+		start_experience_factor = 0.3
+	}
+	
+}

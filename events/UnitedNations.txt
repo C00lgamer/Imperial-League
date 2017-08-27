@@ -1,0 +1,19 @@
+﻿add_namespace = united_nations
+
+#In the year 2000
+
+#Hidden Trigger: Resolution regarding Croatia (1285)
+
+#Hidden Trigger: Resolution regarding Burundi (1286)
+
+#Hidden Trigger: Resolution regarding Georgia (1287)
+
+#Hidden Trigger: Resolution regarding the Middle East (1288)
+
+#Hidden Trigger: Resolution regarding Sierra Leone (1289)
+
+#Hidden Trigger: Acceptance of Tuvalu (1290)
+
+#Hidden Trigger: Resolution regarding the DRC (1291)
+
+#Hidden Trigger: Resolution regarding Western Sahara (1292)

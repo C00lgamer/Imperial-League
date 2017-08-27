@@ -1,0 +1,37 @@
+﻿division_template = {
+	name = "Infantry Regiment"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+units = {
+
+	division = {
+		name = "Infantry Regiment"
+		location = 4450
+		division_template = "Infantry Regiment"
+		start_experience_factor = 0.1
+	}
+	
+}
+
+instant_effect = {
+	
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "USA"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 100
+		amount = 100000
+	}
+	
+}

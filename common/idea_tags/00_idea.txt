@@ -1,0 +1,8 @@
+idea_categories = {
+	country = {
+		national_spirit = yes
+		
+		cost = 0
+		removal_cost = -1
+	}
+}
