@@ -1,5 +1,5 @@
-name="Millennium Dawn: Modern Day Mod"
-archive="millennium_dawn.zip"
+name="Imperial League: A Millenium Dawn alt history"
+archive="Imperial-League.zip"
 tags={
 	"Gameplay"
 	"Events"
