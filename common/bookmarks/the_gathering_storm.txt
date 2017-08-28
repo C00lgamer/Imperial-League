@@ -40,11 +40,13 @@ bookmarks = {
 				idea_eu_member
 			}
 		}
-		"ITA"={
-			history = "ITA_GATHERING_STORM_DESC"
-			ideology = democratic_socialist
+		"GRE"={
+			history = "GRE_BLITZKRIEG_DESC"
+			ideology = monarchist
 			ideas = {
-				idea_eu_member
+				Imperial_Senate
+				Popular_Emperor
+				partially_recognized_state
 			}
 		}
 		"RAJ"={
