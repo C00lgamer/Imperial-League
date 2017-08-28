@@ -255,13 +255,14 @@ focus_tree = {
 		id = GRE_economic_stability
 		icon = GFX_goal_national_unity
 
-		prerequisite = { OR = {
-    						AND = { focus =  GRE_trade_deals_eu
-									focus =  GRE_mining_investment }
-							}
-						OR = { focus = GRE_finance_private_sector }
+		prerequisite = 	{
+			focus =  GRE_trade_deals_eu
+			focus =  GRE_mining_investment
 		}
-
+		prerequisite =	{
+			focus = GRE_finance_private_sector
+		}
+								
 		x = 0
 		y = 4
 		cost = 10
