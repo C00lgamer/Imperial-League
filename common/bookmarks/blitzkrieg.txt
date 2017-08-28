@@ -2,7 +2,7 @@ bookmarks = {
 	bookmark = {
 		name = "BLITZKRIEG_NAME"
 		desc = "BLITZKRIEG_DESC"
-		date = 2015.6.1.12
+		date = 2016.6.1.12
 		picture = "GFX_select_date_1939"
 		default_country = "USA"
 	
