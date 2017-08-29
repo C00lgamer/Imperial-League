@@ -1048,28 +1048,5 @@ spriteTypes = {
 		name = "GFX_idea_Popular_Emperor"
 		texturefile = "gfx/interface/ideas/Popular_Emperor.dds"
 	}
-	spriteType = {
-		name = "GFX_idea_reform_economy"
-		texturefile = "gfx/interface/goals/economy/industry_civilian.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_reformed_civilian_law"
-		texturefile = "gfx/interface/goals/ideologies/neutrality.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_healthy_private_sector"
-		texturefile = "gfx/interface/goals/economy/money.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_national_focus"
-		texturefile = "gfx/interface/goals/diplomacy/national_greatness.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_diplomatic_service"
-		texturefile = "gfx/interface/goals/diplomacy/major_alliance.dds"
-	}
-		spriteType = {
-		name = "GFX_idea_international_focus"
-		texturefile = "gfx/interface/goals/diplomacy/improve_relations/improve_relations_dark_green.dds"
-	}
+	
 }

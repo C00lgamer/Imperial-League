@@ -19,7 +19,7 @@ focus_tree = {
 
 	focus = {
 		id = GRE_reform_economy
-		icon = GFX_goal_generic_national_unity
+		icon = GFX_goal_reform_economy
 		
 		x = 2
 		y = 0
@@ -39,7 +39,7 @@ focus_tree = {
 
 	focus = {
 		id = GRE_streamline_civilian_law
-		icon = GFX_goal_generic_propaganda
+		icon = GFX_goal_reformed_civilian_law
 
 		prerequisite = { focus = GRE_reform_economy }
 
@@ -61,7 +61,7 @@ focus_tree = {
 
 	focus = {
 		id = GRE_finance_private_sector
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_goal_healthy_private_sector
 		prerequisite = { focus = GRE_streamline_civilian_law }
 
 		x = 2
@@ -82,7 +82,7 @@ focus_tree = {
 
 	focus = {
 		id = GRE_national_focus
-		icon = GFX_goal_generic_national_unity
+		icon = GFX_goal_national_focus
 
 		prerequisite = { focus = GRE_reform_economy }
 
@@ -108,7 +108,7 @@ focus_tree = {
 
 	focus = {
 		id = GRE_thessaly_development
-		icon = GFX_goal_generic_construct_civ_factory
+		icon = GFX_goal_thessaly_development
 		prerequisite = { focus = GRE_national_focus }
 
 		available = {
@@ -144,7 +144,7 @@ focus_tree = {
 
 	focus = {
 		id = GRE_mining_investment
-		icon = GFX_goal_generic_construction2
+		icon = GFX_goal_mining_investment
 
 		prerequisite = { focus = GRE_thessaly_development }
 
@@ -171,7 +171,7 @@ focus_tree = {
 
 	focus = {
 		id = GRE_international_focus
-		icon = GFX_goal_generic_improve_relations
+		icon = GFX_goal_international_focus
 
 		prerequisite = { focus = GRE_reform_economy }
 
@@ -194,7 +194,7 @@ focus_tree = {
 
 	focus = {
 		id = GRE_diplomatic_service
-		icon = GFX_goal_generic_improve_relations
+		icon = GFX_goal_diplomatic_service
 
 		prerequisite = { focus = GRE_international_focus }
 
@@ -214,7 +214,7 @@ focus_tree = {
 
 	focus = {
 		id = GRE_trade_deals_eu
-		icon = GFX_goal_generic_positive_trade_relations 
+		icon = GFX_goal_trade_deals_eu 
 
 		prerequisite = { focus = GRE_diplomatic_service }
 
@@ -253,7 +253,7 @@ focus_tree = {
 
 	focus = {
 		id = GRE_economic_stability
-		icon = GFX_goal_national_unity
+		icon = GFX_goal_economic_stability
 
 		prerequisite = 	{
 			focus =  GRE_trade_deals_eu
