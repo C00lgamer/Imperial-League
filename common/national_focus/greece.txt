@@ -24,7 +24,7 @@ focus_tree = {
 		x = 2
 		y = 0
 
-		cost = 10
+		cost = 4
 
 		#ai_will_do = {
 		#	factor = 1
@@ -43,9 +43,9 @@ focus_tree = {
 
 		prerequisite = { focus = GRE_reform_economy }
 
-		x = 0
-		y = 1
-		cost = 10
+		x = 2
+		y = 2
+		cost = 4
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -64,9 +64,9 @@ focus_tree = {
 		icon = GFX_goal_generic_consumer_goods
 		prerequisite = { focus = GRE_streamline_civilian_law }
 
-		x = 0
-		y = 2
-		cost = 10
+		x = 2
+		y = 3
+		cost = 4
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -92,9 +92,9 @@ focus_tree = {
 			has_idea = reform_economy
 		}
 
-		x = 2
+		x = 0
 		y = 1
-		cost = 10
+		cost = 4
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -115,9 +115,9 @@ focus_tree = {
 			has_idea = national_focus
 		}
 
-		x = 2
+		x = 0
 		y = 2
-		cost = 10
+		cost = 4
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -148,9 +148,9 @@ focus_tree = {
 
 		prerequisite = { focus = GRE_thessaly_development }
 
-		x = 2
+		x = 0
 		y = 3
-		cost = 10
+		cost = 4
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -183,7 +183,7 @@ focus_tree = {
 
 		x = 4
 		y = 1
-		cost = 10
+		cost = 4
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -200,7 +200,7 @@ focus_tree = {
 
 		x = 4
 		y = 2
-		cost = 10
+		cost = 4
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -220,7 +220,7 @@ focus_tree = {
 
 		x = 4
 		y = 3
-		cost = 10
+		cost = 4
 		#ai_willdo = {
 		#	factor = 1
 		#}
@@ -263,9 +263,9 @@ focus_tree = {
 			focus = GRE_finance_private_sector
 		}
 								
-		x = 0
+		x = 2
 		y = 4
-		cost = 10
+		cost = 47
 		#ai_willdo = {
 		#	factor = 1
 		#}

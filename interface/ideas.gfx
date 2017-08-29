@@ -1042,7 +1042,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_Imperial_Senate"
-		texturefile = "gfx/interface/ideas/Imperial_Senate.dds"
+		texturefile = "gfx/interface/ideas/ideology/monarchy.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_Popular_Emperor"
@@ -1050,26 +1050,26 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_reform_economy"
-		texturefile = "gfx/interface/ideas/reform_economy.dds"
+		texturefile = "gfx/interface/goals/economy/industry_civilian.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_reformed_civilian_law"
-		texturefile = "gfx/interface/ideas/neutrality_idea.dds"
+		texturefile = "gfx/interface/goals/ideologies/neutrality.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_healthy_private_sector"
-		texturefile = "gfx/interface/ideas/taxes_low.dds"
+		texturefile = "gfx/interface/goals/economy/money.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_national_focus"
-		texturefile = "gfx/interface/ideas/generic_morale_bonus.dds"
+		texturefile = "gfx/interface/goals/diplomacy/national_greatness.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_diplomatic_service"
-		texturefile = "gfx/interface/ideas/generic_pp_unity_bonus.dds"
+		texturefile = "gfx/interface/goals/diplomacy/major_alliance.dds"
 	}
 		spriteType = {
 		name = "GFX_idea_international_focus"
-		texturefile = "gfx/interface/goals/goal_generic_improve_relations.dds"
+		texturefile = "gfx/interface/goals/diplomacy/improve_relations/improve_relations_dark_green.dds"
 	}
 }
