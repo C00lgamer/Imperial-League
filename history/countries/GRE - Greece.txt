@@ -141,6 +141,7 @@ create_country_leader = {
 	name = "Constantine II"
 	picture = "Constantine_II.dds"
 	ideology = absolute_monarchist
+	expire = "2050.1.1"
 }
 	
 create_country_leader = {
