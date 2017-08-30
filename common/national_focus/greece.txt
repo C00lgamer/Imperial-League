@@ -265,7 +265,7 @@ focus_tree = {
 								
 		x = 12
 		y = 4
-		cost = 47
+		cost = 20
 		#ai_willdo = {
 		#	factor = 1
 		#}
@@ -276,7 +276,7 @@ focus_tree = {
 			remove_ideas = reform_economy
 			remove_ideas = reformed_civilian_law
 			remove_ideas = healthy_private_sector
-			add_timed_idea = { idea = greek_golden_age = 600 }
+			add_timed_idea = { idea = greek_golden_age days = 600 }
 		}
 	}
 
@@ -290,7 +290,7 @@ focus_tree = {
 								
 		x = 12
 		y = 5
-		cost = 100
+		cost = 10
 		#ai_willdo = {
 		#	factor = 1
 		#}
@@ -301,7 +301,7 @@ focus_tree = {
 			add_political_power = 100
 		}
 	}
-	
+
 	focus = {
 		id = GRE_balance
 		icon = GFX_goal_balance
@@ -312,7 +312,7 @@ focus_tree = {
 								
 		x = 12
 		y = 6
-		cost = 100
+		cost = 10
 		#ai_willdo = {
 		#	factor = 1
 		#}
