@@ -276,6 +276,7 @@ focus_tree = {
 			remove_ideas = reform_economy
 			remove_ideas = reformed_civilian_law
 			remove_ideas = healthy_private_sector
+			add_timed_idea = { idea = greek_golden_age = 600 }
 		}
 
 	}

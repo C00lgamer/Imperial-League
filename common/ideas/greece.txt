@@ -108,7 +108,20 @@ ideas = {
 				fascist_drift = -0.05
 			}
 		}
+		
+		greek_golden_age = {
 
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = +0.10
+				production_factory_max_efficiency_factor = +0.10
+				local_resources_factor = +0.10
+			}
+		}
 	#end brackets	
 	}
 

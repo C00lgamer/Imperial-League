@@ -1072,4 +1072,8 @@ spriteTypes = {
 		name = "GFX_idea_diplomatic_service"
 		texturefile = "gfx/interface/ideas/diplomacy/high_society"
 	}
+	spriteType = {
+		name = "GFX_idea_greek_golden_age"
+		texturefile = "gfx/interface/ideas/economy/consumer_goods"
+	}
 }
