@@ -171,7 +171,6 @@ ideas = {
 			}
 
 			modifier = {
-				set_rule = { can_send_volunteers = yes }
 				justify_war_goal_time = -0.50
 				generate_wargoal_tension = -0.50
 				send_volunteers_tension = -0.50
