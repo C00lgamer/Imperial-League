@@ -1,0 +1,115 @@
+ideas = {
+
+	country = {
+		Imperial_Senate = {
+			
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				fascist_drift = +0.10
+				monarchist_drift = +0.20
+				conservative_drift = +0.10
+				unity_factor = +0.10
+				join_faction_tension = 1.00
+			}
+			
+		}
+
+		Popular_Emperor = {
+			
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				monarchist_drift = +0.10
+				unity_factor = +0.10
+			}
+		}
+		
+		reform_economy = {
+			
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				consumer_goods_factor = +0.20
+				production_speed_buildings_factor = -0.5
+				production_factory_max_efficiency_factor = -0.3
+				conscription_factor = -0.5
+				local_resources_factor = -0.75
+				unity_factor = -0.2
+			}
+		}
+
+		reformed_civilian_law = {
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				unity_factor = +0.05
+				consumer_goods_factor = -0.025
+			}
+		}
+
+		healthy_private_sector = {
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.10
+				production_speed_buildings_factor = +0.50
+				production_factory_max_efficiency_factor = +0.30
+				local_resources_factor = +0.25
+			}
+		}
+
+		national_focus = {
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				nationalist_drift = -0.05
+				fascist_drift = -0.025
+			}
+		}
+
+		diplomatic_service = {
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				research_time_factor = -0.02
+				political_power_gain = +0.20
+				justify_war_goal_time = -0.25
+				generate_wargoal_tension = -0.10
+			}
+		}
+
+		international_focus = {
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				nationalist_drift = +0.05
+				fascist_drift = +0.05
+			}
+		}
+
+	#end brackets	
+	}
+
+}

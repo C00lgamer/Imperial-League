@@ -1,0 +1,290 @@
+focus_tree = {
+	id = gre_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GRE
+		}
+		
+		modifier = {
+			add = 10
+			original_tag = GRE
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = GRE_reform_economy
+		icon = consumer_goods
+		
+		x = 2
+		y = 0
+
+		cost = 4
+
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = reform_economy
+		}
+	}
+
+	focus = {
+		id = GRE_streamline_civilian_law
+		icon = GFX_goal_reformed_civilian_law
+
+		prerequisite = { focus = GRE_reform_economy }
+
+		x = 2
+		y = 2
+		cost = 4
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		continue_if_invalid = yes
+
+		completion_reward = {
+			add_ideas = reformed_civilian_law
+		}
+	}
+
+	focus = {
+		id = GRE_finance_private_sector
+		icon = GFX_goal_healthy_private_sector
+		prerequisite = { focus = GRE_streamline_civilian_law }
+
+		x = 2
+		y = 3
+		cost = 4
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		continue_if_invalid = yes
+
+		completion_reward = {
+			add_ideas = healthy_private_sector
+		}
+	}
+
+	focus = {
+		id = GRE_national_focus
+		icon = GFX_goal_national_focus
+
+		prerequisite = { focus = GRE_reform_economy }
+
+		mutually_exclusive = { focus = GRE_international_focus }
+
+		available = {
+			has_idea = reform_economy
+		}
+
+		x = 0
+		y = 1
+		cost = 4
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = national_focus
+		}
+	}
+
+	focus = {
+		id = GRE_thessaly_development
+		icon = GFX_goal_thessaly_development
+		prerequisite = { focus = GRE_national_focus }
+
+		available = {
+			has_idea = national_focus
+		}
+
+		x = 0
+		y = 2
+		cost = 4
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = { 
+			47 = {
+				
+				add_extra_state_shared_building_slots = 5
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}		
+	}
+
+	focus = {
+		id = GRE_mining_investment
+		icon = GFX_goal_mining_investment
+
+		prerequisite = { focus = GRE_thessaly_development }
+
+		x = 0
+		y = 3
+		cost = 4
+		#ai_will_do = {
+		#	factor = 1
+		#}
+		completion_reward = {
+			add_resource = {
+				type = aluminium
+				amount = 25
+				state = 47 #thessaly
+			}
+			add_resource = {
+				type = steel
+				amount = 10
+				state = 47 #thessaly
+			}
+		}
+	}
+
+
+	focus = {
+		id = GRE_international_focus
+		icon = GFX_goal_international_focus
+
+		prerequisite = { focus = GRE_reform_economy }
+
+		mutually_exclusive = { focus = GRE_national_focus }
+
+		available = {
+			has_idea = reform_economy
+		}
+
+		x = 4
+		y = 1
+		cost = 4
+		#ai_will_do = {
+		#	factor = 1
+		#}
+		completion_reward = {
+			add_ideas = international_focus
+		}
+	}
+
+	focus = {
+		id = GRE_diplomatic_service
+		icon = GFX_goal_diplomatic_service
+
+		prerequisite = { focus = GRE_international_focus }
+
+		x = 4
+		y = 2
+		cost = 4
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = diplomatic_service
+		}
+	}
+
+	focus = {
+		id = GRE_trade_deals_eu
+		icon = GFX_goal_trade_deals_eu 
+
+		prerequisite = { focus = GRE_diplomatic_service }
+
+		x = 4
+		y = 3
+		cost = 4
+		#ai_willdo = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			ITA = {
+				add_opinion_modifier = { target = GRE modifier = trade_influence_3 }
+				add_opinion_modifier = { target = GRE modifier = medium_increase }
+			}
+			SPR = {
+				add_opinion_modifier = { target = GRE modifier = trade_influence_3 }
+				add_opinion_modifier = { target = GRE modifier = medium_increase }
+			}
+			POR = {
+				add_opinion_modifier = { target = GRE modifier = trade_influence_3 }
+				add_opinion_modifier = { target = GRE modifier = medium_increase }
+			}
+			FRA = {
+				add_opinion_modifier = { target = GRE modifier = trade_influence_3 }
+				add_opinion_modifier = { target = GRE modifier = medium_increase }
+			}
+			GER = {
+				add_opinion_modifier = { target = GRE modifier = trade_influence_3 }
+				add_opinion_modifier = { target = GRE modifier = medium_increase }
+			}
+		}
+	}
+
+	focus = {
+		id = GRE_economic_stability
+		icon = GFX_goal_economic_stability
+
+		prerequisite = 	{
+			focus =  GRE_trade_deals_eu
+			focus =  GRE_mining_investment
+		}
+		prerequisite =	{
+			focus = GRE_finance_private_sector
+		}
+								
+		x = 2
+		y = 4
+		cost = 47
+		#ai_willdo = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			remove_ideas = reform_economy
+			remove_ideas = reformed_civilian_law
+			remove_ideas = healthy_private_sector
+		}
+
+	}
+
+
+
+
+
+
+
+#ending bracket	
+}
