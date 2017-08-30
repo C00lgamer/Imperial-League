@@ -326,7 +326,7 @@ focus_tree = {
 
 	focus = {
 		id = GRE_govern_overlook_rule
-		icon = GFX_goal_balance
+		icon = GFX_govern_overlook_rule
 
 		prerequisite = 	{
 			focus =  GRE_balance
@@ -348,14 +348,14 @@ focus_tree = {
 
 	focus = {
 		id = GRE_imperial_bureaucracy
-		icon = GFX_goal_balance
+		icon = GFX_imperial_bureaucracy
 
 		prerequisite = 	{
 			focus =  GRE_govern_overlook_rule
 		}
 								
 		x = 15
-		y = 10
+		y = 9
 		cost = 10
 		#ai_willdo = {
 		#	factor = 1
@@ -370,14 +370,14 @@ focus_tree = {
 
 	focus = {
 		id = GRE_commander_army
-		icon = GRE_govern_overlook_rule
+		icon = GRE_commander_army
 
 		prerequisite = 	{
-			focus =  GRE_balance
+			focus =  GRE_govern_overlook_rule
 		}
 								
 		x = 9
-		y = 10
+		y = 9
 		cost = 10
 		#ai_willdo = {
 		#	factor = 1
@@ -393,14 +393,14 @@ focus_tree = {
 
 	focus = {
 		id = GRE_three_systems
-		icon = GFX_goal_balance
+		icon = GFX_three_systems
 
 		prerequisite = 	{
 			focus =  GRE_govern_overlook_rule
 		}
 								
 		x = 12
-		y = 10
+		y = 9
 		cost = 10
 		#ai_willdo = {
 		#	factor = 1
@@ -416,7 +416,7 @@ focus_tree = {
 
 	focus = {
 		id = GRE_chief_executive
-		icon = GFX_goal_balance
+		icon = GFX_chief_executive
 
 		prerequisite = 	{
 			focus = GRE_commander_army
@@ -428,7 +428,7 @@ focus_tree = {
 		}
 								
 		x = 12
-		y = 11
+		y = 10
 		cost = 10
 		#ai_willdo = {
 		#	factor = 1
