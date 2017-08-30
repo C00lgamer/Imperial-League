@@ -150,7 +150,7 @@ ideas = {
 			}
 
 			modifier = {
-				monarchist_drift = + 0.10
+				monarchist_drift = +0.10
 				progressive_drift = +0.15
 				nationalist_drift = +0.15
 				conservative_drift = +0.15
@@ -164,7 +164,7 @@ ideas = {
 			}
 		}
 
-		commander_army =  = {
+		commander_army = {
 
 			allowed = {
 				always = no
