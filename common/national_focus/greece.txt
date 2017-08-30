@@ -278,7 +278,46 @@ focus_tree = {
 			remove_ideas = healthy_private_sector
 			add_timed_idea = { idea = greek_golden_age = 600 }
 		}
+	focus = {
+		id = GRE_path_forwards
+		icon = GFX_goal_path_forwards
 
+		prerequisite = 	{
+			focus =  GRE_economic_stability
+		}
+								
+		x = 12
+		y = 5
+		cost = 100
+		#ai_willdo = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+		}
+	focus = {
+		id = GRE_balance
+		icon = GFX_goal_balance
+
+		prerequisite = 	{
+			focus =  GRE_path_forwards
+		}
+								
+		x = 12
+		y = 6
+		cost = 100
+		#ai_willdo = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = greek_balance
+		}
 	}
 
 

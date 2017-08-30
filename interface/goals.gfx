@@ -2453,5 +2453,13 @@ spriteTypes = {
 		name = "GFX_goal_thessaly_development"
 		texturefile = "gfx/interface/goals/economy/production.dds"
 	}
+		spriteType = {
+		name = "GFX_goal_path_forwards"
+		texturefile = "gfx/interface/goals/diplomacy/self_management.dds"
+	}
+		spriteType = {
+		name = "GFX_goal_balance"
+		texturefile = "gfx/interface/goals/diplomacy/constitution.dds"
+	}
 	#those without a category
 }
