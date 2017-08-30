@@ -142,6 +142,43 @@ ideas = {
 				democratic_socialist_drift = -0.10
 			}
 		}
+
+		three_systems = {
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				monarchist_drift = + 0.10
+				progressive_drift = +0.15
+				nationalist_drift = +0.15
+				conservative_drift = +0.15
+				fascist_drift = -0.30
+				reactionary_drift = -0.30
+				communist_drift = -0.30
+				market_liberal_drift = -0.30
+				social_liberal_drift = -0.30
+				social_democrat_drift = -0.30
+				democratic_socialist_drift = -0.30
+			}
+		}
+
+		commander_army =  = {
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				set_rule = { can_send_volunteers = yes }
+				justify_war_goal_time = -0.50
+				generate_wargoal_tension = -0.50
+				send_volunteers_tension = -0.50
+				lend_lease_tension = -0.50
+			}
+		}
+		
 	
 	#end brackets	
 	}

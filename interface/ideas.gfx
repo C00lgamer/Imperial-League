@@ -1080,4 +1080,13 @@ spriteTypes = {
 		name = "GFX_idea_greek_balance"
 		texturefile = "gfx/interface/ideas/diplomacy/neutrality"
 	}
+	spriteType = {
+		name = "GFX_idea_three_systems"
+		texturefile = "gfx/interface/ideas/diplomacy/international_treaty"
+	}
+	spriteType = {
+		name = "GFX_idea_commander_army"
+		texturefile = "gfx/interface/ideas/army/gentlemen_officers"
+	}
+
 }

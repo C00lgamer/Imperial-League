@@ -2461,5 +2461,25 @@ spriteTypes = {
 		name = "GFX_goal_balance"
 		texturefile = "gfx/interface/goals/diplomacy/constitution.dds"
 	}
+		spriteType = {
+		name = "GFX_goal_govern_overlook_rule"
+		texturefile = "gfx/interface/goals/diplomacy/concessions2.dds"
+	}
+		spriteType = {
+		name = "GFX_goal_imperial_bureaucracy"
+		texturefile = "gfx/interface/goals/economy/central_management.dds"
+	}
+		spriteType = {
+		name = "GFX_goal_commander_army"
+		texturefile = "gfx/interface/goals/diplomacy/militairy_deal.dds"
+	}
+		spriteType = {
+		name = "GFX_goal_three_systems"
+		texturefile = "gfx/interface/goals/diplomacy/constitution.dds"
+	}
+		spriteType = {
+		name = "GFX_goal_chief_executive"
+		texturefile = "gfx/interface/goals/ideologies/monarchy/monarchy3.dds"
+	}
 	#those without a category
 }

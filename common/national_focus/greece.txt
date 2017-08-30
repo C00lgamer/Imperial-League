@@ -324,8 +324,121 @@ focus_tree = {
 		}
 	}
 
+	focus = {
+		id = GRE_govern_overlook_rule
+		icon = GFX_goal_balance
 
+		prerequisite = 	{
+			focus =  GRE_balance
+		}
+								
+		x = 12
+		y = 8
+		cost = 10
+		#ai_willdo = {
+		#	factor = 1
+		#}
 
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = -100
+		}
+	}
+
+	focus = {
+		id = GRE_imperial_bureaucracy
+		icon = GFX_goal_balance
+
+		prerequisite = 	{
+			focus =  GRE_govern_overlook_rule
+		}
+								
+		x = 15
+		y = 10
+		cost = 10
+		#ai_willdo = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = GRE_commander_army
+		icon = GRE_govern_overlook_rule
+
+		prerequisite = 	{
+			focus =  GRE_balance
+		}
+								
+		x = 9
+		y = 10
+		cost = 10
+		#ai_willdo = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = commander_army
+		}
+	}
+
+	focus = {
+		id = GRE_three_systems
+		icon = GFX_goal_balance
+
+		prerequisite = 	{
+			focus =  GRE_govern_overlook_rule
+		}
+								
+		x = 12
+		y = 10
+		cost = 10
+		#ai_willdo = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			remove_ideas = greek_balance
+			add_ideas = three_systems
+		}
+	}
+
+	focus = {
+		id = GRE_chief_executive
+		icon = GFX_goal_balance
+
+		prerequisite = 	{
+			focus = GRE_commander_army
+			focus = GRE_imperial_bureaucracy
+		}
+
+		prerequisite = 	{
+			focus =  GRE_three_systems
+		}
+								
+		x = 12
+		y = 11
+		cost = 10
+		#ai_willdo = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 200
+		}
+	}
 
 
 
