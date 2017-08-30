@@ -19,7 +19,7 @@ focus_tree = {
 
 	focus = {
 		id = GRE_reform_economy
-		icon = GFX_goal_reform_economy
+		icon = consumer_goods
 		
 		x = 2
 		y = 0
