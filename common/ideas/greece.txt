@@ -182,4 +182,52 @@ ideas = {
 	#end brackets	
 	}
 
+		elite_legions = {
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				army_attack_factor = 0.10
+				army_defence_factor = 0.10
+				army_morale_factor = 0.20
+				army_org_factor = 0.20
+				dig_in_speed_factor = 0.20
+				training_time_factor = 0.40
+				conscription = -0.20
+			}
+		}
+
+		modern_imperial_army = {
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				conscription = 0.10
+				unity_factor = 0.05
+			}
+		}
+	
+		limited_production = {
+
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				industrial_capacity_factory = -0.50
+				production_factory_efficiency_gain_factor = -0.50
+				consumer_goods_factor = +0.20 
+			}
+		}
+
+
+
+	#end brackets	
+	}
+
+
 }

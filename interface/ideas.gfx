@@ -1054,39 +1054,50 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_reformed_civilian_law"
-		texturefile = "gfx/interface/ideas/economy/foreign_capital"
+		texturefile = "gfx/interface/ideas/economy/foreign_capital.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_healthy_private_sector"
-		texturefile = "gfx/interface/ideas/economy/production_bonus"
+		texturefile = "gfx/interface/ideas/economy/production_bonus.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_national_focus"
-		texturefile = "gfx/interface/ideas/diplomacy/victors_of_ww1"
+		texturefile = "gfx/interface/ideas/diplomacy/victors_of_ww1.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_international_focus"
-		texturefile = "gfx/interface/ideas/diplomacy/flexible_foreign_policy2"
+		texturefile = "gfx/interface/ideas/diplomacy/flexible_foreign_policy2.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_diplomatic_service"
-		texturefile = "gfx/interface/ideas/diplomacy/high_society"
+		texturefile = "gfx/interface/ideas/diplomacy/high_society.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_greek_golden_age"
-		texturefile = "gfx/interface/ideas/economy/consumer_goods"
+		texturefile = "gfx/interface/ideas/economy/consumer_goods.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_greek_balance"
-		texturefile = "gfx/interface/ideas/diplomacy/neutrality"
+		texturefile = "gfx/interface/ideas/diplomacy/neutrality.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_three_systems"
-		texturefile = "gfx/interface/ideas/diplomacy/international_treaty"
+		texturefile = "gfx/interface/ideas/diplomacy/international_treaty.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_commander_army"
-		texturefile = "gfx/interface/ideas/army/gentlemen_officers"
+		texturefile = "gfx/interface/ideas/army/gentlemen_officers.dds"
 	}
-
+	spriteType = {
+		name = "GFX_idea_elite_legions"
+		texturefile = "gfx/interface/ideas/army/manpower_bonus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_modern_imperial_army"
+		texturefile = "gfx/interface/ideas/army/reserve_divisions.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_limited_production"
+		texturefile = "gfx/interface/ideas/economy/factory_strikes.dds"
+	}
 }

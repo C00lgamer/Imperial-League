@@ -447,8 +447,126 @@ focus_tree = {
 	}
 
 	##Armed Forces tree##
-	
 
+	focus = {
+		id = GRE_restructure_armed_forces
+		icon = GFX_goal_restructure_armed_forces
+								
+		x = 4
+		y = 0
+		cost = 10
+		#ai_willdo = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 30
+			navy_experience = 5
+			air_experience = 10
+		}
+	}
+
+	focus = {
+		id = GRE_elite_legions
+		icon = GFX_goal_elite_legions
+		
+		mutually_exclusive = { focus = GRE_modern_imperial_army }
+
+		prerequisite = 	{
+			focus =  GRE_restructure_armed_forces
+		}
+
+		x = 3
+		y = 1
+		cost = 10
+		#ai_willdo = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = elite_legions
+		}
+	}
+
+	focus = {
+		id = GRE_modern_imperial_army
+		icon = GFX_goal_modern_imperial_army
+		
+		mutually_exclusive = { focus = GRE_elite_legions }
+
+		prerequisite = 	{
+			focus =  GRE_restructure_armed_forces
+		}
+
+		x = 5
+		y = 1
+		cost = 10
+		#ai_willdo = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = modern_imperial_army
+		}
+	}
+
+	focus = {
+		id = GRE_wolf
+		icon = GFX_goal_wolf
+		
+		mutually_exclusive = { focus = GRE_sheep }
+
+		prerequisite = 	{
+			focus =  GRE_elite_legions
+			focus = GRE_modern_imperial_army
+		}
+
+		x = 3
+		y = 2
+		cost = 10
+		#ai_willdo = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_timed_idea = { idea = limited_production days = 300 }
+			add_tech_bonus = { bonus = 0.5 uses = 1 category = industry }
+			add_named_threat = { threat = 3 name = GRE_wolf }
+		}
+	}
+
+	focus = {
+		id = GRE_sheep
+		icon = GFX_goal_sheep
+		
+		mutually_exclusive = { focus = GRE_wolf }
+
+		prerequisite = 	{
+			focus =  GRE_elite_legions
+			focus = GRE_modern_imperial_army
+		}
+
+		x = 5
+		y = 2
+		cost = 10
+		#ai_willdo = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_named_threat = { threat = -2 name = GRE_sheep }
+		}
+	}
 
 
 #ending bracket	
