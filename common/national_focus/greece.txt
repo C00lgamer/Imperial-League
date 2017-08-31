@@ -21,7 +21,7 @@ focus_tree = {
 		id = GRE_reform_economy
 		icon = consumer_goods
 		
-		x = 2
+		x = 12
 		y = 0
 
 		cost = 4
@@ -43,7 +43,7 @@ focus_tree = {
 
 		prerequisite = { focus = GRE_reform_economy }
 
-		x = 2
+		x = 12
 		y = 2
 		cost = 4
 		#ai_will_do = {
@@ -64,7 +64,7 @@ focus_tree = {
 		icon = GFX_goal_healthy_private_sector
 		prerequisite = { focus = GRE_streamline_civilian_law }
 
-		x = 2
+		x = 12
 		y = 3
 		cost = 4
 		#ai_will_do = {
@@ -92,7 +92,7 @@ focus_tree = {
 			has_idea = reform_economy
 		}
 
-		x = 0
+		x = 10
 		y = 1
 		cost = 4
 		#ai_will_do = {
@@ -115,7 +115,7 @@ focus_tree = {
 			has_idea = national_focus
 		}
 
-		x = 0
+		x = 10
 		y = 2
 		cost = 4
 		#ai_will_do = {
@@ -148,7 +148,7 @@ focus_tree = {
 
 		prerequisite = { focus = GRE_thessaly_development }
 
-		x = 0
+		x = 10
 		y = 3
 		cost = 4
 		#ai_will_do = {
@@ -181,7 +181,7 @@ focus_tree = {
 			has_idea = reform_economy
 		}
 
-		x = 4
+		x = 14
 		y = 1
 		cost = 4
 		#ai_will_do = {
@@ -198,7 +198,7 @@ focus_tree = {
 
 		prerequisite = { focus = GRE_international_focus }
 
-		x = 4
+		x = 14
 		y = 2
 		cost = 4
 		#ai_will_do = {
@@ -218,7 +218,7 @@ focus_tree = {
 
 		prerequisite = { focus = GRE_diplomatic_service }
 
-		x = 4
+		x = 14
 		y = 3
 		cost = 4
 		#ai_willdo = {
@@ -263,9 +263,9 @@ focus_tree = {
 			focus = GRE_finance_private_sector
 		}
 								
-		x = 2
+		x = 12
 		y = 4
-		cost = 47
+		cost = 20
 		#ai_willdo = {
 		#	factor = 1
 		#}
@@ -276,12 +276,170 @@ focus_tree = {
 			remove_ideas = reform_economy
 			remove_ideas = reformed_civilian_law
 			remove_ideas = healthy_private_sector
+			add_timed_idea = { idea = greek_golden_age days = 600 }
 		}
-
 	}
 
+	focus = {
+		id = GRE_path_forwards
+		icon = GFX_goal_path_forwards
 
+		prerequisite = 	{
+			focus =  GRE_economic_stability
+		}
+								
+		x = 12
+		y = 5
+		cost = 10
+		#ai_willdo = {
+		#	factor = 1
+		#}
 
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = GRE_balance
+		icon = GFX_goal_balance
+
+		prerequisite = 	{
+			focus =  GRE_path_forwards
+		}
+								
+		x = 12
+		y = 6
+		cost = 10
+		#ai_willdo = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = greek_balance
+		}
+	}
+
+	focus = {
+		id = GRE_govern_overlook_rule
+		icon = GFX_goal_govern_overlook_rule
+
+		prerequisite = 	{
+			focus =  GRE_balance
+		}
+								
+		x = 12
+		y = 8
+		cost = 10
+		#ai_willdo = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = -100
+		}
+	}
+
+	focus = {
+		id = GRE_imperial_bureaucracy
+		icon = GFX_goal_imperial_bureaucracy
+
+		prerequisite = 	{
+			focus =  GRE_govern_overlook_rule
+		}
+								
+		x = 15
+		y = 9
+		cost = 10
+		#ai_willdo = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = GRE_commander_army
+		icon = GFX_goal_commander_army
+
+		prerequisite = 	{
+			focus =  GRE_govern_overlook_rule
+		}
+								
+		x = 9
+		y = 9
+		cost = 10
+		#ai_willdo = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_rule = { can_send_volunteers = yes }
+			add_ideas = commander_army
+		}
+	}
+
+	focus = {
+		id = GRE_three_systems
+		icon = GFX_goal_three_systems
+
+		prerequisite = 	{
+			focus =  GRE_govern_overlook_rule
+		}
+								
+		x = 12
+		y = 9
+		cost = 10
+		#ai_willdo = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			remove_ideas = greek_balance
+			add_ideas = three_systems
+		}
+	}
+
+	focus = {
+		id = GRE_chief_executive
+		icon = GFX_goal_chief_executive
+
+		prerequisite = 	{
+			focus = GRE_commander_army
+			focus = GRE_imperial_bureaucracy
+		}
+
+		prerequisite = 	{
+			focus =  GRE_three_systems
+		}
+								
+		x = 12
+		y = 10
+		cost = 10
+		#ai_willdo = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 200
+		}
+	}
 
 
 
