@@ -177,10 +177,6 @@ ideas = {
 				lend_lease_tension = -0.50
 			}
 		}
-		
-	
-	#end brackets	
-	}
 
 		elite_legions = {
 
