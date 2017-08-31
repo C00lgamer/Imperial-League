@@ -2471,7 +2471,7 @@ spriteTypes = {
 	}
 		spriteType = {
 		name = "GFX_goal_commander_army"
-		texturefile = "gfx/interface/goals/diplomacy/militairy_deal.dds"
+		texturefile = "gfx/interface/goals/diplomacy/military_deal.dds"
 	}
 		spriteType = {
 		name = "GFX_goal_three_systems"
