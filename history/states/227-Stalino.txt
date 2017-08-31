@@ -18,6 +18,7 @@ state={
 				set_province_controller = 3449
 				set_province_controller = 3466
 				set_province_controller = 502
+			}
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
