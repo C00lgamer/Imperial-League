@@ -1358,10 +1358,10 @@ technologies = {
 		}
 		
 		research_cost = 4
-		start_year = 2020
+		start_year = 2018
 		folder = {
 			name = industry_folder
-			position = { x = @power_line y = @2020 }
+			position = { x = @power_line y = @2018 }
 		}
 
 		Folder = {
@@ -1385,15 +1385,15 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = @fusion y = @2020 }
+			position = { x = @fusion y = @2018 }
 		}
 		
-		start_year = 2020
+		start_year = 2018
 		research_cost = 4
 
 		folder = {
 			name = armour_folder
-			position = { x = -6 y = @2020 }
+			position = { x = -6 y = @2018 }
 		}
 		
 		desc = "MILITARY_FUSION_SPECIAL"
@@ -1408,7 +1408,6 @@ technologies = {
 		
 		categories = {
 			industry
-			fusion_technology
 		}		
 	}
 }

@@ -606,7 +606,7 @@ technologies = {
 	atomic_research = {
 
 		research_time_factor = -0.02
-		
+
 		path = {
 			leads_to_tech = nuclear_reactor 
 			research_cost_coeff = 1
@@ -681,5 +681,62 @@ technologies = {
 		categories = {
 			nuclear
 		}
+	}
+
+	shielding = {
+
+		research_time_factor = -0.02
+		
+		path = {
+			leads_to_tech = shielding2 
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			military_fusion = 1
+		}
+
+		
+		start_year = 2018
+		research_cost = 1
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+		
+		categories = {
+			nuclear
+		}
+		
+
+	}
+
+	shielding2 = {
+
+		research_time_factor = -0.02
+		
+		
+		start_year = 2020
+		research_cost = 1
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+		
+		categories = {
+			nuclear
+		}
+		
+
 	}
 }
