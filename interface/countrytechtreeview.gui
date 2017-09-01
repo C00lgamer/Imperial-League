@@ -3934,7 +3934,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "shielding_tree"
-				position = { x= 1570 y=412 }
+				position = { x=1425 y=412 }
 				size = { width = 480 height = 650 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
