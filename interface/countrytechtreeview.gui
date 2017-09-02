@@ -3672,6 +3672,94 @@ guiTypes = {
 			}
 
 			containerWindowType = {
+				name = "engineering_year_right_right"
+				position = { x=1400 y=40 }
+				size = { width = 130 height = 100% }
+				orientation = upper_left
+
+					instantTextBoxType = {
+					name = "engineering_year_right_right"
+					position = { x = 0 y = 380 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "2018"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+					instantTextBoxType = {
+					name = "engineering_year_right_right2"
+					position = { x = 0 y = 500 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "2020"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "engineering_year_right_right3"
+					position = { x = 0 y = 620 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "2022"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "engineering_year_right_right4"
+					position = { x = 0 y = 740 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "2024"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+#				instantTextBoxType = {
+#					name = "engineering_year_right_right5"
+#					position = { x = 0 y = 860 }
+#					textureFile = ""
+#					font = "hoi_36header"
+#					borderSize = {x = 0 y = 4}
+#					text = "2026"
+#					maxWidth = 130
+#					maxHeight = 32
+#					format = left
+#					Orientation = "UPPER_LEFT"
+#				}
+				
+				instantTextBoxType = {
+					name = "engineering_year_right_right6"
+					position = { x = 0 y = 980 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "2028"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+
+
+			}
+
+			containerWindowType = {
 				name = "engineering_year_right"
 				position = { x=100 y=40 }
 				size = { width = 130 height = 100% }
@@ -3847,6 +3935,8 @@ guiTypes = {
 				}
 			
 			}
+
+
 	
 				instantTextBoxType = {
 					name = "electronic_eng_subtitle"

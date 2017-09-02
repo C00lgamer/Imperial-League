@@ -817,6 +817,16 @@ technologies = {
 			leads_to_tech = shielding3 
 			research_cost_coeff = 1
 		}
+
+		path = {
+			leads_to_tech = shielding_perfection
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = shielding_systems_integration
+			research_cost_coeff = 1
+		}
 		
 		start_year = 2020
 		research_cost = 1
@@ -904,6 +914,16 @@ technologies = {
 		
 		path = {
 			leads_to_tech = shielding4 
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = shielding_perfection2
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = shielding_systems_integration2
 			research_cost_coeff = 1
 		}
 		
@@ -1005,6 +1025,16 @@ technologies = {
 			leads_to_tech = shielding5 
 			research_cost_coeff = 1
 		}
+
+		path = {
+			leads_to_tech = shielding_perfection3
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = shielding_systems_integration3
+			research_cost_coeff = 1
+		}
 		
 		start_year = 2024
 		research_cost = 1
@@ -1066,6 +1096,15 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		path = {
+			leads_to_tech = shielding_perfection4
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = shielding_systems_integration4
+			research_cost_coeff = 1
+		}
 
 		
 		start_year = 2028
@@ -1087,4 +1126,917 @@ technologies = {
 
 	}
 
+	shielding_perfection = {
+
+		modern_armor = {
+			defense = 0.15
+			breakthrough = 0.1
+		}
+
+		missile_cruiser = {
+			evasion = 0.10
+		}
+
+		destroyer = {
+			evasion = 0.10
+		}
+
+		corvette = {
+			evasion = 0.10
+		}
+
+		carrier = {
+			evasion = 0.10
+		}
+
+		frigate = {
+			evasion = 0.10
+		}
+
+		LHD = {
+			evasion = 0.10
+		}
+
+		submarine = {
+			evasion = 0.10
+		}
+
+		
+		start_year = 2020
+		research_cost = 1
+		
+		folder = {
+			name = electronics_folder
+			position = { x = -2 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+		
+		categories = {
+			nuclear
+		}
+		
+
+	}
+
+	shielding_perfection2 = {
+
+		modern_armor = {
+			defense = 0.15
+			breakthrough = 0.1
+		}
+
+		missile_cruiser = {
+			evasion = 0.10
+		}
+
+		destroyer = {
+			evasion = 0.10
+		}
+
+		corvette = {
+			evasion = 0.10
+		}
+
+		carrier = {
+			evasion = 0.10
+		}
+
+		frigate = {
+			evasion = 0.10
+		}
+
+		LHD = {
+			evasion = 0.10
+		}
+
+		submarine = {
+			evasion = 0.10
+		}
+
+		light_armor = {
+			defense = 0.15
+			breakthrough = 0.1
+		}
+
+		fighter = {
+			air_defence = 0.1
+		}
+
+		cas = {
+			air_defence = 0.1
+		}
+		
+		nav_bomber = {
+			air_defence = 0.1
+		}
+
+		strat_bomber = {
+			air_defence = 0.1
+		}
+		
+		tac_bomber = {
+			air_defence = 0.1
+		}
+		
+		
+		start_year = 2022
+		research_cost = 1
+		
+		folder = {
+			name = electronics_folder
+			position = { x = -2 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+		
+		categories = {
+			nuclear
+		}
+		
+
+	}
+
+	shielding_perfection3 = {
+
+		modern_armor = {
+			defense = 0.15
+			breakthrough = 0.1
+		}
+
+		missile_cruiser = {
+			evasion = 0.10
+		}
+
+		destroyer = {
+			evasion = 0.10
+		}
+
+		corvette = {
+			evasion = 0.10
+		}
+
+		carrier = {
+			evasion = 0.10
+		}
+
+		frigate = {
+			evasion = 0.10
+		}
+
+		LHD = {
+			evasion = 0.10
+		}
+
+		submarine = {
+			evasion = 0.10
+		}
+
+		light_armor = {
+			defense = 0.15
+			breakthrough = 0.1
+		}
+
+		fighter = {
+			air_defence = 0.1
+		}
+
+		cas = {
+			air_defence = 0.1
+		}
+		
+		nav_bomber = {
+			air_defence = 0.1
+		}
+
+		strat_bomber = {
+			air_defence = 0.1
+		}
+		
+		tac_bomber = {
+			air_defence = 0.1
+		}
+
+		mechanized = {
+			defense = 0.15
+			breakthrough = 0.1
+		}
+
+		light_mechanized = {
+			defense = 0.15
+			breakthrough = 0.1
+		}
+
+		artillery = {
+			breakthrough = 0.15
+			defense = 0.05
+		}
+		artillery_brigade = {
+			breakthrough = 0.15
+			defense = 0.05
+		}
+
+		rocket_artillery = {
+			breakthrough = 0.15
+			defense = 0.05
+		}
+		rocket_artillery_brigade = {
+			breakthrough = 0.15
+			defense = 0.05
+		}
+		motorized_rocket_brigade = {
+			breakthrough = 0.15
+			defense = 0.05
+		}
+
+		anti_air = {
+			breakthrough = 0.15
+			defense = 0.05
+		}
+		anti_air_brigade = {
+			breakthrough = 0.15
+			defense = 0.05
+		}
+
+		anti_tank = {
+			breakthrough = 0.15
+			defense = 0.05
+		}
+		anti_tank_brigade = {
+			breakthrough = 0.15
+			defense = 0.05
+		}
+
+		motorized = {
+			defense = 0.15
+			breakthrough = 0.1
+		}
+		
+		
+		start_year = 2024
+		research_cost = 1
+		
+		folder = {
+			name = electronics_folder
+			position = { x = -2 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+		
+		categories = {
+			nuclear
+		}
+		
+
+	}
+
+	shielding_perfection4 = {
+
+		modern_armor = {
+			defense = 0.15
+			breakthrough = 0.1
+		}
+
+		missile_cruiser = {
+			evasion = 0.10
+		}
+
+		destroyer = {
+			evasion = 0.10
+		}
+
+		corvette = {
+			evasion = 0.10
+		}
+
+		carrier = {
+			evasion = 0.10
+		}
+
+		frigate = {
+			evasion = 0.10
+		}
+
+		LHD = {
+			evasion = 0.10
+		}
+
+		submarine = {
+			evasion = 0.10
+		}
+
+		light_armor = {
+			defense = 0.15
+			breakthrough = 0.1
+		}
+
+		fighter = {
+			air_defence = 0.1
+		}
+
+		cas = {
+			air_defence = 0.1
+		}
+		
+		nav_bomber = {
+			air_defence = 0.1
+		}
+
+		strat_bomber = {
+			air_defence = 0.1
+		}
+		
+		tac_bomber = {
+			air_defence = 0.1
+		}
+
+		mechanized = {
+			defense = 0.15
+			breakthrough = 0.1
+		}
+
+		light_mechanized = {
+			defense = 0.15
+			breakthrough = 0.1
+		}
+
+		artillery = {
+			breakthrough = 0.15
+			defense = 0.05
+		}
+		artillery_brigade = {
+			breakthrough = 0.15
+			defense = 0.05
+		}
+
+		rocket_artillery = {
+			breakthrough = 0.15
+			defense = 0.05
+		}
+		rocket_artillery_brigade = {
+			breakthrough = 0.15
+			defense = 0.05
+		}
+		motorized_rocket_brigade = {
+			breakthrough = 0.15
+			defense = 0.05
+		}
+
+		anti_air = {
+			breakthrough = 0.15
+			defense = 0.05
+		}
+		anti_air_brigade = {
+			breakthrough = 0.15
+			defense = 0.05
+		}
+
+		anti_tank = {
+			breakthrough = 0.15
+			defense = 0.05
+		}
+		anti_tank_brigade = {
+			breakthrough = 0.15
+			defense = 0.05
+		}
+
+		motorized = {
+			defense = 0.15
+			breakthrough = 0.1
+		}
+
+		category_light_infantry = {
+			defense = 0.20
+			breakthrough = 0.15
+		}
+		cavalry = {
+			defense = 0.20
+			breakthrough = 0.15
+		}		
+		mountaineers = {
+			defense = 0.20
+			breakthrough = 0.15
+		}
+		paratrooper = {
+			defense = 0.20
+			breakthrough = 0.15
+		}
+		marine = {
+			defense = 0.20
+			breakthrough = 0.15
+		}
+		motorized = {
+			defense = 0.20
+			breakthrough = 0.15
+		}
+		mechanized = {
+			defense = 0.20
+			breakthrough = 0.15
+		}
+
+		
+		start_year = 2028
+		research_cost = 1
+		
+		folder = {
+			name = electronics_folder
+			position = { x = -2 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+		
+		categories = {
+			nuclear
+		}
+		
+
+	}
+
+	shielding_systems_integration = {
+
+		modern_armor = {
+			soft_attack = 0.10
+			hard_attack = 0.10
+			air_attack = 0.10
+		}
+
+		missile_cruiser = {
+			ap_attack = 0.10
+			attack = 0.10
+			shore_bombardment = 0.10
+			anti_air_attack = 0.10
+			naval_speed = 0.10
+			naval_range = 0.125
+			torpedo_attack = 0.10
+			sub_attack = 0.10
+		}
+
+		destroyer = {
+			ap_attack = 0.10
+			attack = 0.10
+			shore_bombardment = 0.10
+			anti_air_attack = 0.10
+			naval_speed = 0.10
+			naval_range = 0.125
+			torpedo_attack = 0.10
+			sub_attack = 0.10
+		}
+
+		corvette = {
+			ap_attack = 0.10
+			attack = 0.10
+			shore_bombardment = 0.10
+			anti_air_attack = 0.10
+			naval_speed = 0.10
+			naval_range = 0.125
+			torpedo_attack = 0.10
+			sub_attack = 0.10
+		}
+
+		carrier = {
+			ap_attack = 0.10
+			attack = 0.10
+			shore_bombardment = 0.10
+			anti_air_attack = 0.10
+			naval_speed = 0.10
+			naval_range = 0.125
+			torpedo_attack = 0.10
+			sub_attack = 0.10
+		}
+
+		frigate = {
+			ap_attack = 0.10
+			attack = 0.10
+			shore_bombardment = 0.10
+			anti_air_attack = 0.10
+			naval_speed = 0.10
+			naval_range = 0.125
+			torpedo_attack = 0.10
+			sub_attack = 0.10
+		}
+
+		LHD = {
+			ap_attack = 0.10
+			attack = 0.10
+			shore_bombardment = 0.10
+			anti_air_attack = 0.10
+			naval_speed = 0.10
+			naval_range = 0.125
+			torpedo_attack = 0.10
+			sub_attack = 0.10
+		}
+
+		submarine = {
+			ap_attack = 0.10
+			attack = 0.10
+			shore_bombardment = 0.10
+			anti_air_attack = 0.10
+			naval_speed = 0.10
+			naval_range = 0.125
+			torpedo_attack = 0.10
+			sub_attack = 0.10
+		}
+
+		
+		start_year = 2020
+		research_cost = 1
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+		
+		categories = {
+			nuclear
+		}
+		
+
+	}
+
+	shielding_systems_integration2 = {
+
+		modern_armor = {
+			soft_attack = 0.10
+			hard_attack = 0.10
+			air_attack = 0.10
+		}
+
+		missile_cruiser = {
+			ap_attack = 0.10
+			attack = 0.10
+			shore_bombardment = 0.10
+			anti_air_attack = 0.10
+			naval_speed = 0.10
+			naval_range = 0.125
+			torpedo_attack = 0.10
+			sub_attack = 0.10
+		}
+
+		destroyer = {
+			ap_attack = 0.10
+			attack = 0.10
+			shore_bombardment = 0.10
+			anti_air_attack = 0.10
+			naval_speed = 0.10
+			naval_range = 0.125
+			torpedo_attack = 0.10
+			sub_attack = 0.10
+		}
+
+		corvette = {
+			ap_attack = 0.10
+			attack = 0.10
+			shore_bombardment = 0.10
+			anti_air_attack = 0.10
+			naval_speed = 0.10
+			naval_range = 0.125
+			torpedo_attack = 0.10
+			sub_attack = 0.10
+		}
+
+		carrier = {
+			ap_attack = 0.10
+			attack = 0.10
+			shore_bombardment = 0.10
+			anti_air_attack = 0.10
+			naval_speed = 0.10
+			naval_range = 0.125
+			torpedo_attack = 0.10
+			sub_attack = 0.10
+		}
+
+		frigate = {
+			ap_attack = 0.10
+			attack = 0.10
+			shore_bombardment = 0.10
+			anti_air_attack = 0.10
+			naval_speed = 0.10
+			naval_range = 0.125
+			torpedo_attack = 0.10
+			sub_attack = 0.10
+		}
+
+		LHD = {
+			ap_attack = 0.10
+			attack = 0.10
+			shore_bombardment = 0.10
+			anti_air_attack = 0.10
+			naval_speed = 0.10
+			naval_range = 0.125
+			torpedo_attack = 0.10
+			sub_attack = 0.10
+		}
+
+		submarine = {
+			ap_attack = 0.10
+			attack = 0.10
+			shore_bombardment = 0.10
+			anti_air_attack = 0.10
+			naval_speed = 0.10
+			naval_range = 0.125
+			torpedo_attack = 0.10
+			sub_attack = 0.10
+		}
+
+		light_armor = {
+			soft_attack = 0.10
+			hard_attack = 0.10
+			air_attack = 0.10
+		}
+
+		fighter = {
+			air_range = 0.25
+			air_attack = 0.10
+			naval_strike_attack = 0.10
+			air_ground_attack = 0.10
+			air_bombing = 0.05
+			maximum_speed = 0.10
+			air_agility = 0.05
+		}
+
+		cas = {
+			air_range = 0.25
+			air_attack = 0.10
+			naval_strike_attack = 0.10
+			air_ground_attack = 0.10
+			air_bombing = 0.05
+			maximum_speed = 0.10
+			air_agility = 0.05
+		}
+		
+		nav_bomber = {
+			air_range = 0.25
+			air_attack = 0.10
+			naval_strike_attack = 0.10
+			air_ground_attack = 0.10
+			air_bombing = 0.05
+			maximum_speed = 0.10
+			air_agility = 0.05
+		}
+
+		strat_bomber = {
+			air_range = 0.25
+			air_attack = 0.10
+			naval_strike_attack = 0.10
+			air_ground_attack = 0.10
+			air_bombing = 0.05
+			maximum_speed = 0.10
+			air_agility = 0.05
+		}
+		
+		tac_bomber = {
+			air_range = 0.25
+			air_attack = 0.10
+			naval_strike_attack = 0.10
+			air_ground_attack = 0.10
+			air_bombing = 0.05
+			maximum_speed = 0.10
+			air_agility = 0.05
+		}
+		
+		
+		start_year = 2022
+		research_cost = 1
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+		
+		categories = {
+			nuclear
+		}
+		
+
+	}
+
+	shielding_systems_integration3 = {
+
+		light_armor = {
+			soft_attack = 0.10
+			hard_attack = 0.10
+			air_attack = 0.10
+		}
+
+		fighter = {
+			air_range = 0.25
+			air_attack = 0.10
+			naval_strike_attack = 0.10
+			air_ground_attack = 0.10
+			air_bombing = 0.05
+			maximum_speed = 0.10
+			air_agility = 0.05
+		}
+
+		cas = {
+			air_range = 0.25
+			air_attack = 0.10
+			naval_strike_attack = 0.10
+			air_ground_attack = 0.10
+			air_bombing = 0.05
+			maximum_speed = 0.10
+			air_agility = 0.05
+		}
+		
+		nav_bomber = {
+			air_range = 0.25
+			air_attack = 0.10
+			naval_strike_attack = 0.10
+			air_ground_attack = 0.10
+			air_bombing = 0.05
+			maximum_speed = 0.10
+			air_agility = 0.05
+		}
+
+		strat_bomber = {
+			air_range = 0.25
+			air_attack = 0.10
+			naval_strike_attack = 0.10
+			air_ground_attack = 0.10
+			air_bombing = 0.05
+			maximum_speed = 0.10
+			air_agility = 0.05
+		}
+		
+		tac_bomber = {
+			air_range = 0.25
+			air_attack = 0.10
+			naval_strike_attack = 0.10
+			air_ground_attack = 0.10
+			air_bombing = 0.05
+			maximum_speed = 0.10
+			air_agility = 0.05
+		}
+
+		mechanized = {
+			soft_attack = 0.10
+			hard_attack = 0.10
+			air_attack = 0.10
+		}
+
+		light_mechanized = {
+			soft_attack = 0.10
+			hard_attack = 0.10
+			air_attack = 0.10
+		}
+
+		artillery = {
+			soft_attack = 0.05
+		}
+		artillery_brigade = {
+			soft_attack = 0.05
+		}
+
+		rocket_artillery = {
+			soft_attack = 0.05
+		}
+		rocket_artillery_brigade = {
+			soft_attack = 0.05
+		}
+		motorized_rocket_brigade = {
+			soft_attack = 0.05
+		}
+
+		anti_air = {
+			air_attack = 0.05
+
+		}
+		anti_air_brigade = {
+			air_attack = 0.05
+		}
+
+		anti_tank = {
+			hard_attack = 0.05
+			ap_attack = 0.1
+		}
+		anti_tank_brigade = {
+			hard_attack = 0.05
+			ap_attack = 0.1
+		}
+
+		motorized = {
+			soft_attack = 0.05
+		}
+		
+		start_year = 2022
+		research_cost = 1
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+		
+		categories = {
+			nuclear
+		}
+		
+
+	}
+
+	shielding_systems_integration4 = {
+
+		mechanized = {
+			soft_attack = 0.10
+			hard_attack = 0.10
+			air_attack = 0.10
+		}
+
+		light_mechanized = {
+			soft_attack = 0.10
+			hard_attack = 0.10
+			air_attack = 0.10
+		}
+
+		artillery = {
+			soft_attack = 0.05
+		}
+		artillery_brigade = {
+			soft_attack = 0.05
+		}
+
+		rocket_artillery = {
+			soft_attack = 0.05
+		}
+		rocket_artillery_brigade = {
+			soft_attack = 0.05
+		}
+		motorized_rocket_brigade = {
+			soft_attack = 0.05
+		}
+
+		anti_air = {
+			air_attack = 0.05
+
+		}
+		anti_air_brigade = {
+			air_attack = 0.05
+		}
+
+		anti_tank = {
+			hard_attack = 0.05
+			ap_attack = 0.1
+		}
+		anti_tank_brigade = {
+			hard_attack = 0.05
+			ap_attack = 0.1
+		}
+
+		motorized = {
+			soft_attack = 0.05
+		}
+
+		category_light_infantry = {
+			soft_attack = 0.10
+		}
+		cavalry = {
+			soft_attack = 0.10
+		}		
+		mountaineers = {
+			soft_attack = 0.10
+		}
+		paratrooper = {
+			soft_attack = 0.10
+		}
+		marine = {
+			soft_attack = 0.10
+		}
+		
+		start_year = 2022
+		research_cost = 1
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+		
+		categories = {
+			nuclear
+		}
+		
+
+	}
 }
