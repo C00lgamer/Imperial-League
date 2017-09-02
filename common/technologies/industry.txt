@@ -1272,7 +1272,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 2004
+		start_year = 2002
 		folder = {
 			name = industry_folder
 			position = { x = @power_line y = @2004 }
@@ -1344,11 +1344,11 @@ technologies = {
 
 	power6 = {
 		
-		industrial_capacity_factory = 0.30
+		research_time_factor = -0.04
 
 		
 		path = {
-			leads_to_tech = power6
+			leads_to_tech = power7
 			research_cost_coeff = 10
 		}
 
@@ -1410,4 +1410,31 @@ technologies = {
 			industry
 		}		
 	}
+
+	power7 = {
+		
+		industrial_capacity_factory = 0.30
+
+		
+		path = {
+			leads_to_tech = power8
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 2020
+		folder = {
+			name = industry_folder
+			position = { x = @power_line y = @2020 }
+		}
+		
+		ai_will_do = {
+			factor = 6
+		}
+		
+		categories = {
+			industry
+		}
+		
+	}	
 }
