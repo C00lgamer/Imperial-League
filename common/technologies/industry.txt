@@ -1209,7 +1209,7 @@ technologies = {
 
 	power1 = {
 		
-		industrial_capacity_factory = 0.05
+		production_factory_max_efficiency_factor = 0.05
 
 		
 		path = {
@@ -1236,7 +1236,7 @@ technologies = {
 
 	power2 = {
 		
-		industrial_capacity_factory = 0.05
+		production_factory_max_efficiency_factor = 0.05
 
 		
 		path = {
@@ -1263,7 +1263,7 @@ technologies = {
 
 	power3 = {
 		
-		industrial_capacity_factory = 0.05
+		production_factory_max_efficiency_factor = 0.05
 
 		
 		path = {
@@ -1290,7 +1290,7 @@ technologies = {
 
 	power4 = {
 		
-		industrial_capacity_factory = 0.05
+		production_factory_max_efficiency_factor = 0.05
 
 		
 		path = {
@@ -1317,7 +1317,7 @@ technologies = {
 
 	power5 = {
 		
-		industrial_capacity_factory = 0.05
+		production_factory_max_efficiency_factor = 0.05
 
 		
 		path = {
@@ -1413,7 +1413,7 @@ technologies = {
 
 	power7 = {
 		
-		industrial_capacity_factory = 0.30
+		production_factory_max_efficiency_factor = 0.20
 
 		
 		path = {
@@ -1436,5 +1436,54 @@ technologies = {
 			industry
 		}
 		
-	}	
+	}
+
+	power8 = {
+		
+		production_factory_max_efficiency_factor = 0.10
+
+		
+		path = {
+			leads_to_tech = power9
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 2025
+		folder = {
+			name = industry_folder
+			position = { x = @power_line y = @2025 }
+		}
+		
+		ai_will_do = {
+			factor = 6
+		}
+		
+		categories = {
+			industry
+		}
+		
+	}
+
+	power9 = {
+		
+		production_factory_max_efficiency_factor = 0.10
+
+		
+		research_cost = 2
+		start_year = 2030
+		folder = {
+			name = industry_folder
+			position = { x = @power_line y = @2030 }
+		}
+		
+		ai_will_do = {
+			factor = 6
+		}
+		
+		categories = {
+			industry
+		}
+		
+	}		
 }
