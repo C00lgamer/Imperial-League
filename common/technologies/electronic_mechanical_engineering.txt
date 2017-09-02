@@ -1032,6 +1032,34 @@ technologies = {
 			breakthrough = 0.50
 			soft_attack = -0.20
 		}
+		cavalry = {
+			defense = 0.80
+			breakthrough = 0.50
+			soft_attack = -0.20
+		}		
+		mountaineers = {
+			defense = 0.80
+			breakthrough = 0.50
+			soft_attack = -0.20
+		}
+		paratrooper = {
+			defense = 0.80
+			breakthrough = 0.50
+			soft_attack = -0.20
+		}
+		marine = {
+			defense = 0.80
+			breakthrough = 0.50
+			soft_attack = -0.20
+		}
+		motorized = {
+			defense = 0.65
+			breakthrough = 0.40
+		}
+		mechanized = {
+			defense = 0.65
+			breakthrough = 0.40
+		}
 		
 		path = {
 			leads_to_tech = shielding6 
