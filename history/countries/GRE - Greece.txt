@@ -14,16 +14,33 @@ set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	infantry_weapons2 = 1
+	advanced_infantry_weapons = 1
 	improved_infantry_weapons = 1
+	improved_infantry_weapons_2 = 1
 	rail_integration_system = 1
+	improved_rail_integration_system = 1
+	red_laser_sight = 1
+	weapon_mounted_light = 1
+	red_dot_sight = 1
+	holographic_sight = 1
 	support_weapons = 1
 	tandem_charge_warheads = 1
 	squad_automatic_weapon = 1
+	support_weapons2 = 1
+	support_weapons3 = 1
+
 	night_vision = 1
+	night_vision2 = 1
+	night_vision3 = 1
+	night_vision4 = 1
 	body_armor = 1
 	body_armor2 = 1
+	body_armor3 = 1
 	camouflage = 1
+	camouflage2 = 1
+	camouflage 3 = 1
 	special_forces = 1
+	special_forces2 = 1
 	motorised_infantry = 1
 	
 	
@@ -90,6 +107,10 @@ set_technology = {
 	construction1 = 1
 	manufacturing1 = 1
 	excavation1 = 1
+	power1 = 1
+	power2 = 1
+	power3 = 1
+	power4 = 1
 }
 
 add_ideas = {
