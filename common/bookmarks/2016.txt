@@ -2,7 +2,7 @@ bookmarks = {
 	bookmark = {	#Modern Day
 		name = "BLITZKRIEG_NAME"
 		desc = "BLITZKRIEG_DESC"
-		date = 2016.6.1.12
+		date = 2019.6.1.12
 		picture = "GFX_select_date_1939"
 		default_country = "USA"
 	
