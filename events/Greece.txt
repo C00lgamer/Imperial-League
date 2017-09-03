@@ -1,0 +1,23 @@
+add_namespace = greece
+
+#Gains tech
+
+country_event = {
+	id = greece.1
+	title = greece.1.t
+	desc = greece.1.d
+	picture = GFX_report_event_war
+	
+	fire_only_once = yes
+	
+	option = {
+		name = greece.1.o1
+		set_technology = { power5 = 1 }
+		set_technology = { power6 = 1 }
+		set_technology = { military_fusion = 1 }
+		set_technology = { shielding = 1 }
+		set_technology = { shielding2 = 1 }
+		set_technology = { shielding_systems_integration = 1 }
+	}
+	
+}

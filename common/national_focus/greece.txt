@@ -538,8 +538,8 @@ focus_tree = {
 
 		completion_reward = {
 			add_timed_idea = { idea = limited_production days = 300 }
-			add_tech_bonus = { bonus = 0.5 uses = 1 category = industry }
 			add_named_threat = { threat = 3 name = GRE_wolf }
+			country_event = greece.1
 		}
 	}
 
