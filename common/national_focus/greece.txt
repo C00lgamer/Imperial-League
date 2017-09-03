@@ -391,7 +391,6 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_rule = { can_send_volunteers = yes }
 			add_ideas = commander_army
 		}
 	}
@@ -567,6 +566,31 @@ focus_tree = {
 			add_named_threat = { threat = -2 name = GRE_sheep }
 		}
 	}
+
+	focus = {
+		id = GRE_stockpile
+		icon = GFX_goal_stockpile
+		
+
+		prerequisite = 	{
+			focus =  GRE_sheep
+		}
+
+		x = 5
+		y = 3
+		cost = 10
+		#ai_willdo = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			country_event = greece.2
+		}
+	}
+
+
 
 
 #ending bracket	

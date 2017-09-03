@@ -2501,5 +2501,10 @@ spriteTypes = {
 		name = "GFX_goal_sheep"
 		texturefile = "gfx/interface/goals/army/defence.dds"
 	}
+	spriteType = {
+		name = "GFX_goal_stockpile"
+		texturefile = "gfx/interface/goals/economy/license_production.dds"
+	}
+
 	#those without a category
 }

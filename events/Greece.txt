@@ -8,7 +8,7 @@ country_event = {
 	desc = greece.1.d
 	picture = GFX_report_event_war
 	
-	fire_only_once = yes
+	is_triggered_only = yes
 	
 	option = {
 		name = greece.1.o1
@@ -17,7 +17,32 @@ country_event = {
 		set_technology = { military_fusion = 1 }
 		set_technology = { shielding = 1 }
 		set_technology = { shielding2 = 1 }
+		set_technology = { shielding3 = 1 }
 		set_technology = { shielding_systems_integration = 1 }
+	}
+	
+}
+
+#Secret stash
+
+country_event = {
+	id = greece.2
+	title = greece.2.t
+	desc = greece.2.d
+	picture = GFX_report_event_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = greece.2.o1
+		country_event = greece.1
+		add_timed_idea = { idea = limited_production days = 300 }
+	}
+
+	option = {
+		name = greece.2.o2
+		add_political_power = -100
+		set_country_flag = greek_stash
 	}
 	
 }
