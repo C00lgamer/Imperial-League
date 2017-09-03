@@ -1,6 +1,6 @@
-add_namespace = greece
+﻿add_namespace = greece
 
-#Gains tech
+#Secret Tech
 
 country_event = {
 	id = greece.1
