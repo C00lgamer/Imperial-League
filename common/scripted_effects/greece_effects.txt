@@ -1,0 +1,141 @@
+stockpile_growth = {
+	if = {
+		#Stockpile only grows 12 times, averaging a year time.
+		limit = { 
+			NOT = has_country_flag = { flag = greek_stash_stopped }
+			has_country_flag = { flag = greek_stash value < 12 }
+			has_country_flag = { flag = greek_stash_tick }
+			 }
+		#All of these just tick up one everytime, as soon as we reach 12 the maximum is reached, the events greece.3 and greece.4 handle everything else.
+		if = {
+			limit = {  greek_stash value = 0 }
+			
+			clr_country_flag = greek_stash
+			clr_country_flag = greek_stash_tick
+			set_country_flag = {
+				flag = greek_stash
+				value = 1
+			}
+		}
+
+		if = {
+			limit = {  greek_stash value = 1 }
+			
+			clr_country_flag = greek_stash
+			clr_country_flag = greek_stash_tick
+			set_country_flag = {
+				flag = greek_stash
+				value = 2
+			}
+		}
+
+		if = {
+			limit = {  greek_stash value = 2 }
+			
+			clr_country_flag = greek_stash
+			clr_country_flag = greek_stash_tick
+			set_country_flag = {
+				flag = greek_stash
+				value = 3
+			}
+		}
+
+		if = {
+			limit = {  greek_stash value = 3 }
+			
+			clr_country_flag = greek_stash
+			clr_country_flag = greek_stash_tick
+			set_country_flag = {
+				flag = greek_stash
+				value = 4
+			}
+		}
+
+		if = {
+			limit = {  greek_stash value = 4 }
+			
+			clr_country_flag = greek_stash
+			clr_country_flag = greek_stash_tick
+			set_country_flag = {
+				flag = greek_stash
+				value = 5
+			}
+		}
+
+		if = {
+			limit = {  greek_stash value = 5 }
+			
+			clr_country_flag = greek_stash
+			clr_country_flag = greek_stash_tick
+			set_country_flag = {
+				flag = greek_stash
+				value = 6
+			}
+		}
+
+		if = {
+			limit = {  greek_stash value = 6 }
+			
+			clr_country_flag = greek_stash
+			clr_country_flag = greek_stash_tick
+			set_country_flag = {
+				flag = greek_stash
+				value = 7
+			}
+		}
+
+		if = {
+			limit = {  greek_stash value = 7 }
+			
+			clr_country_flag = greek_stash
+			clr_country_flag = greek_stash_tick
+			set_country_flag = {
+				flag = greek_stash
+				value = 8
+			}
+		}
+
+		if = {
+			limit = {  greek_stash value = 8 }
+			
+			clr_country_flag = greek_stash
+			clr_country_flag = greek_stash_tick
+			set_country_flag = {
+				flag = greek_stash
+				value = 9
+			}
+		}
+
+		if = {
+			limit = {  greek_stash value = 9 }
+			
+			clr_country_flag = greek_stash
+			clr_country_flag = greek_stash_tick
+			set_country_flag = {
+				flag = greek_stash
+				value = 10
+			}
+		}
+
+		if = {
+			limit = {  greek_stash value = 10 }
+			
+			clr_country_flag = greek_stash
+			clr_country_flag = greek_stash_tick
+			set_country_flag = {
+				flag = greek_stash
+				value = 11
+			}
+		}
+
+		if = {
+			limit = {  greek_stash value = 11 }
+			
+			clr_country_flag = greek_stash
+			clr_country_flag = greek_stash_tick
+			set_country_flag = {
+				flag = greek_stash
+				value = 12
+			}
+		}
+}

@@ -42,7 +42,60 @@ country_event = {
 	option = {
 		name = greece.2.o2
 		add_political_power = -100
-		set_country_flag = greek_stash
+		hidden_effect = { set_country_flag = greek_stash value = 0 }
 	}
 	
+}
+
+country_event = {
+	id = greece.3
+	title = greece.3.t
+	desc = greece.3.d
+	picture = GFX_report_event_war
+	
+	trigger = {
+		has_country_flag = { flag = greek_stash value < 12 }
+		NOT = has_country_flag = { flag = greek_stash_stopped }
+		NOT = has_country_flag = { flag = greek_stash value = 0 }
+		NOT = has_country_flag = { flag = greek_stash_tick }
+
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = greece.3.o1
+		hidden_effect = { set_country_flag = greek_stash_stopped }		 
+	}
+
+	option = {
+		name = greece.3.o2
+		hidden_effect = { set_country_flag = greek_stash_tick}
+		decrease_monarchist_influence_by_1 = yes
+	}
+
+}
+
+country_event = {
+	id = greece.4
+	title = greece.4.t
+	desc = greece.4.d
+	picture = GFX_report_event_war
+	
+	trigger = {
+		has_country_flag = { flag = greek_stash value = 12 }
+
+	}
+
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = greece.4.o1
+		hidden_effect = { set_country_flag = greek_stash_stopped }		 
+	}
+
 }
