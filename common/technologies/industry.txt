@@ -70,7 +70,7 @@ technologies = {
 
 		path = {
 			leads_to_tech = power1
-			research_cost_coeff = 1
+			research_cost_coeff = 0.25
 		}
 		
 		research_cost = 1.5
@@ -1214,7 +1214,7 @@ technologies = {
 		
 		path = {
 			leads_to_tech = power2
-			research_cost_coeff = 1
+			research_cost_coeff = 0.5
 		}
 		
 		research_cost = 2
